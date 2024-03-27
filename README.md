@@ -28,11 +28,15 @@ if "__main__" == __name__:
 
 ## Examples
 
-![](./5.png)
+![](./imgs/5.png)
 
-![](./3.png)
+![](./imgs/3.png)
 
-![](./simplify.png)
+![](./imgs/3_color.png)
+
+![](./imgs/simplify.png)
+
+![](./imgs/simplify_colors.png)
 
 ## Contributing
 
