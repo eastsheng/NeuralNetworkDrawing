@@ -89,7 +89,7 @@ def plotNN(nlayers,nneurons,radius=0.2,width_dist=3,height_dist=1.5,xlen=16,ylen
 	ax.set_ylim(0, ylen)
 	if axis == False:
 		plt.axis('off')
-	plt.savefig("./simplify.png",dpi=300,transparent=False)
+	# plt.savefig("./simplify.png",dpi=300,transparent=False)
 
 	plt.show()
 

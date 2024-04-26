@@ -68,7 +68,7 @@ def plotNN(nlayers,nneurons,radius=0.2,width_dist=3,height_dist=1.5,xlen=16,ylen
 	ax.set_ylim(0, ylen)
 	if axis == False:
 		plt.axis('off')
-	plt.savefig("./3_color.png",dpi=300,transparent=False)
+	# plt.savefig("./3_color.png",dpi=300,transparent=False)
 
 	plt.show()
 
@@ -81,8 +81,8 @@ if "__main__" == __name__:
 	]
 	color_fill = color_fills[2]
 	plotNN(
-		nlayers=3,#5,
-		nneurons=[5,10,1],#[5,8,10,6,1],
+		nlayers=4,#5,
+		nneurons=[6,8,8,1],#[5,8,10,6,1],
 		radius=0.35,
 		width_dist=3.5,
 		height_dist=1.5,
